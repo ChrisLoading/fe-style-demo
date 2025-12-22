@@ -1,16 +1,17 @@
+/* src/styles/global.css */
 :root {
-    --gap: 12px;
-    --radius: 12px;
-    --border: 1px solid #ddd;
+  --gap: 12px;
+  --radius: 12px;
+  --border: 1px solid #ddd;
 }
 
 .pc-card {
-    border: var(--border);
-    border-radius: var(--radius);
-    padding: 16px;
-    display: flex;
-    gap: var(--gap);
-    align-items: center;
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  gap: var(--gap);
+  align-items: center;
 }
 
 .pc-avatar {
@@ -54,11 +55,11 @@
 
 /* RWD: Switch to a vertical layout on small screens */
 @media (max-width: 520px) {
-    .pc-card {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .pc-badge {
-        margin-left: 0;
-    }
+  .pc-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pc-badge {
+    margin-left: 0;
+  }
 }
