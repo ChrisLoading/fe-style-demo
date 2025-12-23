@@ -1,0 +1,24 @@
+import { useState } from "react";
+import styles from "./ProfileCard.module.css";
+
+export default function ProfileCard() {
+  const [online, setOnline] = useState(true);
+
+  return (
+    <div className={styles.card}>
+      <div className={styles.avatar} />
+      <div>
+        <h3 className={styles.title}>Chris Chou</h3>
+        <p className={styles.subtitle}>Internal Systems / MIS</p>
+
+        <button className={styles.btn} onClick={() => setOnline(!online)}>
+          Toggle Online
+        </button>
+      </div>
+
+      <span className={`${styles.badge} ${online ? styles.online : styles.offline}`}>
+        {online ? "Online" : "Offline"}
+      </span>
+    </div>
+  );
+}
