@@ -38,7 +38,8 @@ import ProfilecardCssModule from './ProfileCardCssModule.jsx';
 function App() {
   return (
     <div style={{ padding: 20}}>
-      <ProfilecardCssModule />  {/* Using different Profile Card component to test 4 ways of styling in React */}
+      {/* Using different Profile Card component to test 4 ways of styling in React */}
+      <ProfilecardCssModule />  
     </div>
   )
 }
