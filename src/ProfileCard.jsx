@@ -9,7 +9,7 @@ export default function ProfileCard() {
         <div className="pc-card">
             <div className="pc-avatar" style={{ backgroundImage: `url(${reactLogo})` }}></div>
                 <div>
-                    <h3 className="pc-title">John Doe</h3>
+                    <h3 className="pc-title">Global CSS</h3>
                     <p className="pc-subtitle">Internal Systems / MIS</p>
 
                     <button className="pc-btn" onClick={() => setOnline(!online)}>
