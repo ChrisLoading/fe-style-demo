@@ -64,13 +64,13 @@ export default function ProfilecardCssInJs() {
             <div>
                 <Title>CSS-in-JS</Title>
                 <Subtitle>Internal Systems / MIS</Subtitle>
-                <btn onClick={() => setOnline(!online)}>
+                <Btn onClick={() => setOnline(!online)}>
                     Toggle Online
-                </btn>
+                </Btn>
             </div>
 
             <Badge $online={online}>
-                {online ? "online" : "offline"}
+                {online ? "Online" : "Offline"}
             </Badge>
         </Card>
     )
