@@ -3,7 +3,9 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import ProfileCard from './ProfileCard.jsx';
 import ProfilecardCssModule from './ProfileCardCssModule.jsx';
+import ProfilecardCssInJs from './ProfileCardCssInJs.jsx';
 
 // Default App component
 // function App() {
@@ -38,8 +40,10 @@ import ProfilecardCssModule from './ProfileCardCssModule.jsx';
 function App() {
   return (
     <div style={{ padding: 20}}>
-      {/* Using different Profile Card component to test 4 ways of styling in React */}
-      <ProfilecardCssModule />  
+      {/* Using different Profile Card components to test 4 ways of styling in React */}
+      <ProfileCard /> 
+      <ProfilecardCssModule />
+      <ProfilecardCssInJs />  
     </div>
   )
 }
