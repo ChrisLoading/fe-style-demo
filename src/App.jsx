@@ -40,9 +40,9 @@ import ProfileCardTailwind from './ProfileCardTailwind.jsx';
 
 function App() {
   return (
-    // Practiced a little bit of tailwind CSS at the div level
+    // Tried a little bit of tailwind CSS at the div level
     <div className='p-8 flex flex-col gap-8'>
-      {/* Used different Profile Card components to test 4 ways of styling in React */}
+      {/* Used different Profile Card components to demo 4 ways of styling in React */}
       <ProfileCard /> 
       <ProfileCardCssModule />
       <ProfileCardCssInJs />  
