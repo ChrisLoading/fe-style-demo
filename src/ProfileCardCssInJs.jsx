@@ -55,7 +55,7 @@ const Btn = styled.button`
   cursor: pointer;
 `;
 
-export default function ProfilecardCssInJs() {
+export default function ProfileCardCssInJs() {
     const [online, setOnline] = useState(true);
 
     return (

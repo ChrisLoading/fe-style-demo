@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./ProfileCard.module.css";  // Importing CSS Module here instead of globally importing in main.jsx (CSS-Module way of styling)
 
-export default function ProfilecardCssModule() {
+export default function ProfileCardCssModule() {
   const [online, setOnline] = useState(true);
 
   return (
