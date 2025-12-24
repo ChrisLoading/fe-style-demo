@@ -4,8 +4,9 @@
 // import './App.css'
 
 import ProfileCard from './ProfileCard.jsx';
-import ProfilecardCssModule from './ProfileCardCssModule.jsx';
-import ProfilecardCssInJs from './ProfileCardCssInJs.jsx';
+import ProfileCardCssModule from './ProfileCardCssModule.jsx';
+import ProfileCardCssInJs from './ProfileCardCssInJs.jsx';
+import ProfileCardTailwind from './ProfileCardTailwind.jsx';
 
 // Default App component
 // function App() {
@@ -39,11 +40,13 @@ import ProfilecardCssInJs from './ProfileCardCssInJs.jsx';
 
 function App() {
   return (
-    <div style={{ padding: 20}}>
-      {/* Using different Profile Card components to test 4 ways of styling in React */}
+    // Practiced a little bit of tailwind CSS at the div level
+    <div className='p-8 flex flex-col gap-8'>
+      {/* Used different Profile Card components to test 4 ways of styling in React */}
       <ProfileCard /> 
-      <ProfilecardCssModule />
-      <ProfilecardCssInJs />  
+      <ProfileCardCssModule />
+      <ProfileCardCssInJs />  
+      <ProfileCardTailwind />
     </div>
   )
 }
